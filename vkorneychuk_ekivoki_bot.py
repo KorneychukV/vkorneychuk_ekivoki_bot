@@ -1,5 +1,5 @@
 import datetime
-from .classes.BotHandler import BotHandler
+from classes.BotHandler import BotHandler
 
 token = "1173528624:AAE_VmquAJvssAkON6TVtAW_dQS0kTjMWZs"
 
