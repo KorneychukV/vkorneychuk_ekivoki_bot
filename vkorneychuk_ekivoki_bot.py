@@ -22,7 +22,7 @@ def main():
         last_chat_name = last_update['message']['chat']['first_name']
 
         if last_chat_text.lower() == '/help':
-            help_file = open(path_to_help,'r')
+            help_file = open(path_to_help_file,'r')
             help_string = help_file.read()
             ekivoki_bot.send_message(last_chat_id, help_string)
 
