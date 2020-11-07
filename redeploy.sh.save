@@ -1,0 +1,4 @@
+#!/bin/bashread b
+echo $b
+git add .
+

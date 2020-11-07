@@ -25,7 +25,8 @@ def main():
             help_file = open(path_to_help_file,'r')
             help_string = help_file.read()
             ekivoki_bot.send_message(last_chat_id, help_string)
-
+        elif last_chat_text.lower() == '/start':
+            ekivoki_bot.send_message(last_chat_id, 'Введите ваше имя')
 
         new_offset = last_update_id + 1
 
